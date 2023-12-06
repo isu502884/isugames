@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "PixelMplus12-Regular";
+    src: url('../font/PixelMplus12-Regular.ttf') format('truetype');
+}
+
+body {
+    min-width: 700px;
+    font-family: "PixelMplus12-Regular", "Hiragino Kaku Gothic ProN";
+    line-height: 1.2;
+    text-align: center;
+}
+
+.area {
+    height: 0;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    text-decoration: none;
+}
+
+.header-bar {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #444;
+
+    .header-menu {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .logo {
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .header-menu a {
+        color: #ddd;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 20px;
+
+        text-decoration: none;
+    }
+
+    .header-menu a:hover {
+        color: #bb5555;
+    }
+
+    .header-bars {
+        display: none;
+    }
+}
+
+.top {
+    margin-top: 40px;
+    padding: 50px 0;
+    width: 100%;
+    background-color: #dd9999;
+    display: block;
+
+    h4 {
+        font-size: 40px;
+    }
+}
+
+.pc,
+.phone,
+.sns {
+    margin-top: 50px;
+}
+
+.game-img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.lead {
+    color: #555555;
+    font-size: 20px;
+}
+
+@mixin game($color) {
+    padding: 20px 10px;
+    margin: 16px 16px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: $color;
+
+    img {
+        margin: 10px auto 00px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    a {
+        padding: 16px 12px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        display: inline-block;
+        color: $color;
+        text-decoration: none;
+
+        &:hover {
+            color: #ffffff;
+            background-color: darken($color, 10%);
+        }
+    }
+
+    h4 {
+        color: lighten($color, 50%);
+    }
+}
+
+.coffee {
+    @include game(#aaaaaa);
+}
+
+.pigeon {
+    @include game(#aaaaaa);
+}
+
+.tsuritsuri {
+    @include game(#aaaaaa);
+}
+
+.reverse {
+    @include game(#aaaaaa);
+}
+
+.homerun {
+    @include game(#aaaaaa);
+}
+
+.gun {
+    @include game(#aaaaaa);
+}
+
+.honeycomb {
+    @include game(#aaaaaa);
+}
+
+.old {
+
+
+    a {
+        padding: 16px 12px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        display: inline-block;
+        color: #aaaaaa;
+        text-decoration: none;
+
+        &:hover {
+            color: #ffffff;
+            background-color: #555555;
+        }
+    }
+}
+
+.sns {
+
+
+    a {
+        padding: 16px 12px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        display: inline-block;
+        color: #1da1f2;
+        text-decoration: none;
+
+        &:hover {
+            color: #ffffff;
+            background-color: #1da1f2;
+        }
+    }
+}
+
+.footer-bar {
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    background-color: #444;
+
+    .footer-menu {
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .footer-menu a {
+        color: #ddd;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .footer-menu a:hover {
+        color: #bb5555;
+    }
+
+    .footer-bars {
+        display: none;
+    }
+
+    .copyright {
+        margin-top: 10px;
+        margin-right: 20px;
+        color: #fff;
+        font-size: 20px;
+
+        float: right;
+    }
+}

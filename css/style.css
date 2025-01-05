@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PixelMplus12-Regular";
-  src: url("../font/PixelMplus12-Regular.ttf") format("truetype");
+  src: url('../font/PixelMplus12-Regular.ttf') format('truetype');
 }
 body {
   min-width: 700px;
@@ -8,18 +8,15 @@ body {
   line-height: 1.2;
   text-align: center;
 }
-
 .area {
   height: 0;
 }
-
 .logo {
   float: left;
   margin-top: 10px;
   margin-left: 10px;
   text-decoration: none;
 }
-
 .header-bar {
   height: 40px;
   width: 100%;
@@ -38,7 +35,7 @@ body {
   margin-top: 10px;
   margin-left: 20px;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 .header-bar .header-menu a {
   color: #ddd;
@@ -48,29 +45,24 @@ body {
   text-decoration: none;
 }
 .header-bar .header-menu a:hover {
-  color: #bb5555;
+  color: #b55;
 }
 .header-bar .header-bars {
   display: none;
 }
-
 .top {
   margin-top: 40px;
   padding: 50px 0;
   width: 100%;
-  background-color: #dd9999;
+  background-color: #d99;
   display: block;
 }
 .top h4 {
   font-size: 40px;
 }
-
-.pc,
-.phone,
-.sns {
+.pc, .phone, .sns {
   margin-top: 50px;
 }
-
 .game-img {
   width: 250px;
   height: 250px;
@@ -80,18 +72,124 @@ body {
   width: 80%;
   height: 80%;
 }
-
 .lead {
-  color: #555555;
+  color: #555;
   font-size: 20px;
 }
-
+.untitled {
+  padding: 20px 10px;
+  margin: 16px 16px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #aaa;
+}
+.untitled img {
+  margin: 10px auto 0px;
+  border-radius: 10px;
+  display: block;
+}
+.untitled a {
+  padding: 16px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  color: #aaa;
+  text-decoration: none;
+}
+.untitled a:hover {
+  color: #fff;
+  background-color: #919191;
+}
+.untitled h4 {
+  color: #fff;
+}
+.mygravity {
+  padding: 20px 10px;
+  margin: 16px 16px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #aaa;
+}
+.mygravity img {
+  margin: 10px auto 0px;
+  border-radius: 10px;
+  display: block;
+}
+.mygravity a {
+  padding: 16px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  color: #aaa;
+  text-decoration: none;
+}
+.mygravity a:hover {
+  color: #fff;
+  background-color: #919191;
+}
+.mygravity h4 {
+  color: #fff;
+}
+.homerun2 {
+  padding: 20px 10px;
+  margin: 16px 16px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #aaa;
+}
+.homerun2 img {
+  margin: 10px auto 0px;
+  border-radius: 10px;
+  display: block;
+}
+.homerun2 a {
+  padding: 16px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  color: #aaa;
+  text-decoration: none;
+}
+.homerun2 a:hover {
+  color: #fff;
+  background-color: #919191;
+}
+.homerun2 h4 {
+  color: #fff;
+}
+.cetus {
+  padding: 20px 10px;
+  margin: 16px 16px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #aaa;
+}
+.cetus img {
+  margin: 10px auto 0px;
+  border-radius: 10px;
+  display: block;
+}
+.cetus a {
+  padding: 16px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  color: #aaa;
+  text-decoration: none;
+}
+.cetus a:hover {
+  color: #fff;
+  background-color: #919191;
+}
+.cetus h4 {
+  color: #fff;
+}
 .coffee {
   padding: 20px 10px;
   margin: 16px 16px;
   display: inline-block;
   border-radius: 10px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 .coffee img {
   margin: 10px auto 0px;
@@ -100,26 +198,25 @@ body {
 }
 .coffee a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .coffee a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #919191;
 }
 .coffee h4 {
-  color: white;
+  color: #fff;
 }
-
 .pigeon {
   padding: 20px 10px;
   margin: 16px 16px;
   display: inline-block;
   border-radius: 10px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 .pigeon img {
   margin: 10px auto 0px;
@@ -128,26 +225,25 @@ body {
 }
 .pigeon a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .pigeon a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #919191;
 }
 .pigeon h4 {
-  color: white;
+  color: #fff;
 }
-
 .tsuritsuri {
   padding: 20px 10px;
   margin: 16px 16px;
   display: inline-block;
   border-radius: 10px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 .tsuritsuri img {
   margin: 10px auto 0px;
@@ -156,26 +252,25 @@ body {
 }
 .tsuritsuri a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .tsuritsuri a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #919191;
 }
 .tsuritsuri h4 {
-  color: white;
+  color: #fff;
 }
-
 .reverse {
   padding: 20px 10px;
   margin: 16px 16px;
   display: inline-block;
   border-radius: 10px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 .reverse img {
   margin: 10px auto 0px;
@@ -184,26 +279,25 @@ body {
 }
 .reverse a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .reverse a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #919191;
 }
 .reverse h4 {
-  color: white;
+  color: #fff;
 }
-
 .homerun {
   padding: 20px 10px;
   margin: 16px 16px;
   display: inline-block;
   border-radius: 10px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 .homerun img {
   margin: 10px auto 0px;
@@ -212,26 +306,25 @@ body {
 }
 .homerun a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .homerun a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #919191;
 }
 .homerun h4 {
-  color: white;
+  color: #fff;
 }
-
 .gun {
   padding: 20px 10px;
   margin: 16px 16px;
   display: inline-block;
   border-radius: 10px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 .gun img {
   margin: 10px auto 0px;
@@ -240,26 +333,25 @@ body {
 }
 .gun a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .gun a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #919191;
 }
 .gun h4 {
-  color: white;
+  color: #fff;
 }
-
 .honeycomb {
   padding: 20px 10px;
   margin: 16px 16px;
   display: inline-block;
   border-radius: 10px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 .honeycomb img {
   margin: 10px auto 0px;
@@ -268,46 +360,43 @@ body {
 }
 .honeycomb a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .honeycomb a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #919191;
 }
 .honeycomb h4 {
-  color: white;
+  color: #fff;
 }
-
 .old a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 .old a:hover {
-  color: #ffffff;
-  background-color: #555555;
+  color: #fff;
+  background-color: #555;
 }
-
 .sns a {
   padding: 16px 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4px;
   display: inline-block;
   color: #1da1f2;
   text-decoration: none;
 }
 .sns a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #1da1f2;
 }
-
 .footer-bar {
   margin-top: 50px;
   height: 50px;
@@ -328,7 +417,7 @@ body {
   padding: 20px;
 }
 .footer-bar .footer-menu a:hover {
-  color: #bb5555;
+  color: #b55;
 }
 .footer-bar .footer-bars {
   display: none;
@@ -339,4 +428,4 @@ body {
   color: #fff;
   font-size: 20px;
   float: right;
-}/*# sourceMappingURL=style.css.map */
+}
